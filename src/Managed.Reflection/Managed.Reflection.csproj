@@ -18,6 +18,14 @@
     <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.2.0" />
     <PackageReference Include="System.Security.Cryptography.Csp" Version="4.0.0" />
