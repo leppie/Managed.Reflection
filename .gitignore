@@ -44,7 +44,6 @@ Temporary Items
 
 # Visual Studio
 .vs
-*.csproj
 *.csproj.user
 *.sln
 *.dll
@@ -53,4 +52,4 @@ obj
 bin
 project.lock.json
 packages
-packages.config
+/backup/**
